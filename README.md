@@ -19,7 +19,7 @@ A language extension to support Bluespec System Verilog in Visual Studio Code.
 3. Restart VS Code
 
 ## Contributing
-You are very much welcome to contribute to this extension. Send me a pull request and I will be happy to accept it.
+You are welcome to contribute to this extension. Send me a pull request and I will be happy to accept it.
 
 This extension is not available in the VS Code Marketplace yet. Maybe you make it happen.
 
