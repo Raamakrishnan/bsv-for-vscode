@@ -1,0 +1,43 @@
+{
+    "name": "bluespec-system-verilog",
+    "description": "Bluespec System Verilog support for VS Code",
+    "version": "0.0.1",
+    "publisher": "Raamakrishnan A.",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "BluespecSystemVerilog",
+                "aliases": [
+                    "Bluespec System Verilog",
+                    "BSV",
+                    "bsv"
+                ],
+                "extensions": [
+                    ".bsv",
+                    ".BSV"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "BluespecSystemVerilog",
+                "scopeName": "source.bsv",
+                "path": "./syntaxes/bluespec-system-verilog.tmLanguage"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "BluespecSystemVerilog",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

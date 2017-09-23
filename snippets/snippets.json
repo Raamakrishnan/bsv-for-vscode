@@ -1,0 +1,47 @@
+{
+    "package":{
+        "prefix": "pack",
+        "body": [
+            "package ${1:PackageName};",
+            "\t${0}",
+            "endpackage"
+        ],
+        "description": "Start a new package"
+    },
+    "interface":{
+        "prefix": "intr",
+        "body": [
+            "interface ${1:InterfaceName};",
+            "\t${0}",
+            "endinterface"
+        ],
+        "description": "Insert a new interface"
+    },
+    "interface-with-parameter":{
+        "prefix": "intrp",
+        "body": [
+            "interface ${1:InterfaceName}#(${2:type} ${name});",
+            "\t${0}",
+            "endinterface"
+        ],
+        "description": "Insert a new interface with parameter"
+    },
+    "module":{
+        "prefix": "mod",
+        "body": [
+            "module ${1:mkModuleName}(${2:InterfaceName});",
+            "\t${0}",
+            "endmodule"
+        ],
+        "description": "Insert a new module"
+    },
+    "rule":{
+        "prefix": "rule",
+        "body": [
+            "rule ${1:RuleName}(${2:Cond});",
+            "\t${0}",
+            "endrule"
+        ],
+        "description": "Insert a new rule"
+    }
+}
