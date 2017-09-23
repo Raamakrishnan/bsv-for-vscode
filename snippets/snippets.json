@@ -43,5 +43,32 @@
             "endrule"
         ],
         "description": "Insert a new rule"
+    },
+    "mkAutoFSM":{
+        "prefix": "autofsm",
+        "body": [
+            "mkAutoFSM(seq",
+            "\t${0}",
+            "endseq);"
+        ],
+        "description": "Insert a new FSM using mkAutoFSM"
+    },
+    "mkAlwaysFSM":{
+        "prefix": "alwaysfsm",
+        "body": [
+            "mkAlwaysFSM(seq",
+            "\t${0}",
+            "endseq);"
+        ],
+        "description": "Insert a new FSM using mkAlwaysFSM"
+    },
+    "begin-end":{
+        "prefix": "begin",
+        "body": [
+            "begin",
+            "\t${0}",
+            "end"
+        ],
+        "description": "Insert a new begin...end block"
     }
 }
