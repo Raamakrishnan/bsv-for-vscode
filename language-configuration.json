@@ -4,7 +4,11 @@
 		"lineComment": "//",
 		// symbols used for start and end a block comment. Remove this entry if your language does not support block comments
 		"blockComment": [ "/*", "*/" ]
-	},
+    },
+    "indentationRules": {
+        "increaseIndentPattern": "^\\s*(module|interface|function|typeclass|instance|method|action|actionvalue|rule)[^=]*[=;]$",
+        "decreaseIndentPattern": "^\\s*end(module|interface|function|typeclass|instance|method|action|actionvalue|rule)$"
+    },
 	// symbols used as brackets
 	"brackets": [
 		["{", "}"],

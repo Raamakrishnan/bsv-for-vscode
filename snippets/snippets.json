@@ -4,7 +4,7 @@
         "body": [
             "package ${1:PackageName};",
             "\t${0}",
-            "endpackage"
+            "endpackage : ${1}"
         ],
         "description": "Start a new package"
     },
@@ -31,7 +31,7 @@
         "body": [
             "module ${1:mkModuleName}(${2:InterfaceName});",
             "\t${0}",
-            "endmodule"
+            "endmodule : ${1}"
         ],
         "description": "Insert a new module"
     },
