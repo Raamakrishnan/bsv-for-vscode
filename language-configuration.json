@@ -23,7 +23,6 @@
     ],
     //autoclosing
     "autoClosingPairs" : [
-        ["'", "'"],
         ["\"", "\""]
     ],
     "surroundingPairs": [
