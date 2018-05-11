@@ -2,7 +2,7 @@
     "name": "bluespec-system-verilog",
     "displayName": "Bluespec System Verilog",
     "description": "Bluespec System Verilog support for VS Code adds syntax highlighting and snippets to help you.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "raamakrishnan",
     "homepage": "https://github.com/Raamakrishnan/bsv-for-vscode",
     "bugs": {

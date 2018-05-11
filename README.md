@@ -13,6 +13,7 @@ A language extension to support Bluespec System Verilog in Visual Studio Code.
 
 ## Installation
 Install the extension from Visual Studio Code Marketplace
+
 https://marketplace.visualstudio.com/items?itemName=raamakrishnan.bluespec-system-verilog
 
 ## Contributing
